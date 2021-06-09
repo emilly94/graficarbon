@@ -1,0 +1,163 @@
+.imgCarousel{
+  width: 60%;
+  margin-left: 305px;
+}
+
+#imgSobreEmpresa{
+  width: 300px;
+  margin-right: 100px;
+}
+
+#mainSobreEmpresa {
+  background-color: #0b1923;
+  color: whitesmoke;
+  font-family: 'Josefin Sans', sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  margin: 0 auto;
+  height: 400px;
+
+  max-width: 1200px;
+}
+
+#mainProdutos{
+  background-color: red;
+  color: whitesmoke;
+  font-family: 'Josefin Sans', sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  margin: 0 auto;
+  height: 500px;
+
+  max-width: 1200px;
+}
+
+#mainProdutos p{
+  margin-top: -6px;
+  margin-left: -653px;
+  width: 330px;
+}
+
+#mainProdutos h3{
+  margin-top: -200px;
+  width: 350px;
+}
+
+#contatos{
+  font-family: 'Josefin Sans', sans-serif;
+
+  height: 300px;
+  padding: 30px 50px;
+}
+
+#copyright{
+  padding: 0px 30px;
+  height: 10px;
+}
+
+#button-whatsapp{
+  border-radius: 50px;
+  width:80px;
+  height: 80px;
+  border: none;
+  background-color: green;
+}
+#button-locale{
+  border-radius: 50px;
+  width:80px;
+  height: 80px;
+  background-color:white;
+  color: black;
+}
+#button-fixo{
+  border-radius: 50px;
+  width:80px;
+  height: 80px;
+  background-color:white;
+  color: black;
+}
+#button-email{
+    border-radius: 50px;
+    width:80px;
+    height: 80px;
+    border: none;
+    background-color:red;
+  
+}
+
+#footer{
+  background-color: #0b1923;
+  color: whitesmoke;
+  font-family: 'Josefin Sans', sans-serif;
+
+  height: 300px;
+  padding: 30px 50px;
+}
+
+@media(min-width: 576px) and (max-width: 800){
+  #imgSobreEmpresa{
+    margin-left: -30px;
+  }
+
+  #mainSobreEmpresa {
+    width: 690px!important;
+  }
+  #mainSobreEmpresa p {
+    margin-top: 10px;
+    margin-left: -40px;
+    width: 270px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px){
+  .imgCarousel{
+    width: 50%;
+    margin-left: 205px;
+  }
+  #mainSobreEmpresa {
+    width: 800px;
+  }
+  #mainProdutos{
+    width: 800px;
+  }
+  #mainProdutos p{
+    margin-top: 175px;
+    margin-left: -296px;
+    width: 103px;
+  }
+  #mainProdutos h3{
+    margin-top: -200px;
+    width: 300px;
+  }
+  #footer{
+    width: 809px;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1050px){
+  #mainSobreEmpresa {
+    width: 1000px;
+  }
+  #mainProdutos{
+    width: 1000px;
+  }
+  
+  #mainProdutos p{
+    margin-top: 80px;
+    margin-left: -583px;
+    width: 150px;
+  }
+  
+  #mainProdutos h3{
+    margin-top: -200px;
+    width: 300px;
+  }
+}
+
+

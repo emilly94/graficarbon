@@ -1,0 +1,223 @@
+
+#content{
+  margin-left: 0px;
+  margin-bottom: 300px;
+
+}
+.sombraAnel{
+  background: #00000029 bottom right;
+  width: 200px;
+  height: 145px;
+  margin-left: -210px;
+  margin-top: 300px;
+}
+
+.sombraAnel #imgAnel {
+  width: 200px;
+  position: relative;
+  margin-top: -6px;
+  margin-left: -6px;
+}
+
+.sombraEscova{
+  background: #00000029 bottom right;
+  width: 194px;
+  height: 150px;
+  margin-top: -150px;
+  margin-right: 245px;
+}
+
+.sombraEscova #imgEscova {
+  width: 193px;
+  position: relative;
+  margin-top: -3px;
+  margin-left: -6px;
+}
+
+.sombraPalhetas {
+  background: #00000029 bottom right;
+  width: 200px;
+  height: 151px;
+  margin-top: -150px;
+  margin-left: 205px;
+}
+
+.sombraPalhetas #imgPalhetas{
+  width: 200px;
+  position: relative;
+  margin-top: -4px;
+  margin-left: -6px;
+}
+
+.sombraPlaca{
+  background: #00000029 bottom right;
+  width: 200px;
+  height: 138px;
+  margin-top: 15px;
+  margin-left: -210px;
+}
+
+.sombraPlaca #imgPlaca{
+  width: 200px;
+  position: relative;
+  margin-top: -4px;
+  margin-left: -6px;
+}
+
+.sombraContato{
+  background: #00000029 bottom right;
+  width: 190px;
+  height: 141px;
+  margin-top: -140px;
+  margin-left: 2px;
+}
+
+.sombraContato #imgContato{
+  width: 190px;
+  height: 140px;
+  position: relative;
+  margin-top: -4px;
+  margin-left: -6px;
+}
+
+.sombraAnelBiTri{
+  background: #00000029 bottom right;
+  width: 200px;
+  height: 141px;
+  margin-top: -140px;
+  margin-left: 205px;
+}
+
+.sombraAnelBiTri #imgAnelBiTri{
+  width: 200px;
+  height: 140px;
+  position: relative;
+  margin-top: -4px;
+  margin-left: -6px;
+}
+
+.sombraPinos{
+  background: #00000029 bottom right;
+  width: 200px;
+  height: 141px;
+  margin-top: 15px;
+  margin-left: -110px;
+}
+
+.sombraPinos #imgPinos{
+  width: 200px;
+  height: 140px;
+  position: relative;
+  margin-top: -4px;
+  margin-left: -6px;
+}
+
+.sombraBuchas{
+  background: #00000029 bottom right;
+  width: 200px;
+  height: 141px;
+  margin-top: -140px;
+  margin-left: 100px;
+}
+
+.sombraBuchas #imgBuchas{
+  width: 200px;
+  height: 140px;
+  position: relative;
+  margin-top: -4px;
+  margin-left: -6px;
+}
+
+@media  (min-width: 810px) and (max-width: 1000px ){
+  .sombraAnel{
+    width: 150px;
+    height: 110px;
+    margin-left: 258px;
+    margin-top: 260px;
+  }
+  
+  .sombraAnel #imgAnel {
+    width: 150px;
+  }
+  
+  .sombraEscova{
+    width: 150px;
+    height: 118px;
+    margin-top: -118px;
+    margin-left: 90px;
+  }
+  
+  .sombraEscova #imgEscova {
+    width: 150px;
+  }
+  
+  .sombraPalhetas {
+    width: 150px;
+    height: 116px;
+    margin-top: -116px;
+    margin-left: 425px;
+  }
+  .sombraPalhetas #imgPalhetas{
+    width: 150px;
+  }
+  
+  .sombraPlaca{
+    width: 150px;
+    height: 105px;
+    margin-top: 18px;
+    margin-left: 95px;
+  }
+  
+  .sombraPlaca #imgPlaca{
+    width: 150px;
+  }
+  
+  .sombraContato{
+    width: 150px;
+    height: 103px;
+    margin-top: -105px;
+    margin-left: 260px;
+  }
+  
+  .sombraContato #imgContato{
+    width: 150px;
+    height: 100px;
+  }
+  
+  .sombraAnelBiTri{
+    width: 150px;
+    height: 103px;
+    margin-top: -100px;
+    margin-left: 425px;
+  }
+  
+  .sombraAnelBiTri #imgAnelBiTri{
+    width: 150px;
+    height: 100px;
+  }
+  
+  .sombraPinos{
+    width: 150px;
+    height: 141px;
+    margin-top: 15px;
+    margin-left: 175px;
+  }
+  
+  .sombraPinos #imgPinos{
+    width: 150px;
+    height: 136px;
+  }
+  
+  .sombraBuchas{
+    width: 150px;
+    height: 141px;
+    margin-top: -140px;
+    margin-left: 335px;
+  }
+  
+  .sombraBuchas #imgBuchas{
+    width: 150px;
+    height: 140px;
+  }
+  
+}
