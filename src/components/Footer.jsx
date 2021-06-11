@@ -7,10 +7,12 @@ import { GoLocation } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
 import { BsBell } from "react-icons/bs";
 
-const Footer = () => {
+import "../style/css/style.css"
+
+const Footer = ({id}) => {
   return (
-    <section>
-      <div id="footer">
+    <section id={id}>
+      <div>
         <h1>
           <BsBell />
           Dúvidas? Entre em contato!

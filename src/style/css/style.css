@@ -1,6 +1,5 @@
-.imgCarousel{
-  width: 60%;
-  margin-left: 305px;
+#imgCarousel{
+  margin-left: 168px;
 }
 
 #imgSobreEmpresa{
@@ -17,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 60px;
-  margin: 0 auto;
+  margin: 50px auto;
   height: 400px;
 
   max-width: 1200px;
@@ -32,63 +31,23 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 60px;
-  margin: 0 auto;
+  margin: 50px auto;
   height: 500px;
 
   max-width: 1200px;
 }
 
-#mainProdutos p{
-  margin-top: -6px;
-  margin-left: -653px;
-  width: 330px;
-}
-
-#mainProdutos h3{
-  margin-top: -200px;
-  width: 350px;
-}
-
-#contatos{
-  font-family: 'Josefin Sans', sans-serif;
-
-  height: 300px;
-  padding: 30px 50px;
+.produtosTexto{
+  width: 325px;
+  margin-bottom: 80px;
 }
 
 #copyright{
   padding: 0px 30px;
   height: 10px;
-}
-
-#button-whatsapp{
-  border-radius: 50px;
-  width:80px;
-  height: 80px;
-  border: none;
-  background-color: green;
-}
-#button-locale{
-  border-radius: 50px;
-  width:80px;
-  height: 80px;
-  background-color:white;
-  color: black;
-}
-#button-fixo{
-  border-radius: 50px;
-  width:80px;
-  height: 80px;
-  background-color:white;
-  color: black;
-}
-#button-email{
-    border-radius: 50px;
-    width:80px;
-    height: 80px;
-    border: none;
-    background-color:red;
-  
+  color:gray;
+  margin-top: 62px;
+  margin-left: 425px;
 }
 
 #footer{

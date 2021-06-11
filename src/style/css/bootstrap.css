@@ -4003,7 +4003,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding-left: 0;
+  padding-left: 500px;
   margin-bottom: 0;
   list-style: none;
 }
@@ -5815,6 +5815,7 @@ button.close {
 .carousel-inner {
   position: relative;
   width: 90%;
+  margin-top: 82px;
   overflow: hidden;
 }
 
@@ -5943,7 +5944,7 @@ button.close {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
+  width: 35%;
   color: #fff;
   text-align: center;
   opacity: 0.5;

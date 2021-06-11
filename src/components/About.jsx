@@ -1,15 +1,14 @@
 import React from "react";
 import { Image } from 'react-bootstrap';
-import Logo from "../assets/img/logo.png";
-import Products from "../pages/Products";
+import Logo from "../style/img/logo.png";
 
-import "../assets/css/dashboard.css";
+import "../style/css/style.css";
 
-const Main = () => {
+const About = ({id}) => {
+
   return (
-    <section>
-      <section>
-        <div id="mainSobreEmpresa">
+    <section id={id}>
+        <div id="mainSobreEmpresa" data-aos="fade-right">
           <Image id="imgSobreEmpresa" src={Logo} />
           <p>
             A Graficarbon vem atuando no mercado de carvão e grafite desde 2008,
@@ -25,21 +24,8 @@ const Main = () => {
             e pós venda.
           </p>
         </div>
-      </section>
-      <br></br>
-      <section>
-        <div id="mainProdutos">
-            <h3><strong>Produtos da Graficarbon</strong></h3>
-          <p>
-            Fabricamos palhetas de grafite e celeron, buchas, anéis,
-            tarugos e pinos de grafite, escovas de carvão e metalizadas entre
-            outros.
-          </p>
-          <Products />
-        </div>
-      </section>
     </section>
   );
 };
 
-export default Main;
+export default About;

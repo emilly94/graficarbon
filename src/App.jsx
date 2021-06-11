@@ -1,22 +1,25 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React, { useEffect } from "react";
 
-import "./assets/css/global.css";
-import Hearder from "./components/Header";
-import Contacts from "./components/contacts";
-import Dashboard from "./pages/Dashboard";
+import "./style/css/global.css";
+import Navbar from "./components/Navbar";
+import Header from "./pages/Header";
+import About from "./components/About";
+import Products from "./pages/Products";
+import Footer from "./components/Footer";
+
+import AOS from 'aos';
 
 function App() {
+  useEffect(()=>{
+    AOS.init({duration: 2000});
+  }, []);
   return (
     <div>
-      <Hearder />
-
-      <Router>
-        <Switch>
-          <Route path="/" component={Dashboard} exact />
-          <Route path="/contacts" component={Contacts} />
-        </Switch>
-      </Router>
+      <Navbar />
+      <Header/>
+      <About id="about"/>
+      <Products id="produtos"/>
+      <Footer id="footer"/>
     </div>
   );
 }

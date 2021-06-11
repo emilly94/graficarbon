@@ -1,15 +1,17 @@
-
-#content{
+#container{
   margin-left: 0px;
   margin-bottom: 300px;
-
 }
-.sombraAnel{
+
+#container .sombraAnel{
   background: #00000029 bottom right;
   width: 200px;
   height: 145px;
   margin-left: -210px;
   margin-top: 300px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
 .sombraAnel #imgAnel {
@@ -19,12 +21,23 @@
   margin-left: -6px;
 }
 
-.sombraEscova{
+#container .sombraAnel:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#container .sombraEscova{
   background: #00000029 bottom right;
   width: 194px;
   height: 150px;
   margin-top: -150px;
   margin-right: 245px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
 .sombraEscova #imgEscova {
@@ -34,61 +47,104 @@
   margin-left: -6px;
 }
 
+#container .sombraEscova:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .sombraPalhetas {
   background: #00000029 bottom right;
   width: 200px;
   height: 151px;
   margin-top: -150px;
   margin-left: 205px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-.sombraPalhetas #imgPalhetas{
+#container .sombraPalhetas #imgPalhetas{
   width: 200px;
   position: relative;
   margin-top: -4px;
   margin-left: -6px;
 }
 
-.sombraPlaca{
+#container .sombraPalhetas:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#container .sombraPlaca{
   background: #00000029 bottom right;
   width: 200px;
   height: 138px;
   margin-top: 15px;
   margin-left: -210px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-.sombraPlaca #imgPlaca{
+#container .sombraPlaca #imgPlaca{
   width: 200px;
   position: relative;
   margin-top: -4px;
   margin-left: -6px;
 }
 
-.sombraContato{
+#container .sombraPlaca:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#container .sombraContato{
   background: #00000029 bottom right;
   width: 190px;
   height: 141px;
   margin-top: -140px;
   margin-left: 2px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-.sombraContato #imgContato{
+#container .sombraContato #imgContato{
   width: 190px;
   height: 140px;
   position: relative;
   margin-top: -4px;
   margin-left: -6px;
 }
+#container .sombraContato:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
-.sombraAnelBiTri{
+#container .sombraAnelBiTri{
   background: #00000029 bottom right;
   width: 200px;
   height: 141px;
   margin-top: -140px;
   margin-left: 205px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-.sombraAnelBiTri #imgAnelBiTri{
+#container .sombraAnelBiTri #imgAnelBiTri{
   width: 200px;
   height: 140px;
   position: relative;
@@ -96,15 +152,26 @@
   margin-left: -6px;
 }
 
-.sombraPinos{
+#container .sombraAnelBiTri:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#container .sombraPinos{
   background: #00000029 bottom right;
   width: 200px;
   height: 141px;
   margin-top: 15px;
   margin-left: -110px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-.sombraPinos #imgPinos{
+#container .sombraPinos #imgPinos{
   width: 200px;
   height: 140px;
   position: relative;
@@ -112,20 +179,39 @@
   margin-left: -6px;
 }
 
-.sombraBuchas{
+#container .sombraPinos:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#container .sombraBuchas{
   background: #00000029 bottom right;
   width: 200px;
   height: 141px;
   margin-top: -140px;
   margin-left: 100px;
+
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
 }
 
-.sombraBuchas #imgBuchas{
+#container .sombraBuchas #imgBuchas{
   width: 200px;
   height: 140px;
   position: relative;
   margin-top: -4px;
   margin-left: -6px;
+}
+
+#container .sombraBuchas:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media  (min-width: 810px) and (max-width: 1000px ){
