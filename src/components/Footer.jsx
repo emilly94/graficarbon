@@ -7,7 +7,9 @@ import { GoLocation } from "react-icons/go";
 import { FiPhoneCall } from "react-icons/fi";
 import { BsBell } from "react-icons/bs";
 
-import "../style/css/style.css"
+import "../style/css/style.css";
+import WhatsAppWidget from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css';
 
 const Footer = ({id}) => {
   return (
