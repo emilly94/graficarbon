@@ -23,8 +23,8 @@
 }
 
 #mainProdutos{
-  background-color: red;
-  color: whitesmoke;
+  background-color:#f8f9fa;
+  color: red;
   font-family: 'Josefin Sans', sans-serif;
 
   display: flex;
@@ -38,8 +38,10 @@
 }
 
 .produtosTexto{
-  width: 325px;
-  margin-bottom: 80px;
+  width: 1000px;
+  margin-bottom: 320px;
+  text-align: center;
+  font-size: 20px;
 }
 
 #copyright{
@@ -57,66 +59,12 @@
 
   height: 300px;
   padding: 30px 50px;
+  margin-top: 120px;
 }
 
-@media(min-width: 576px) and (max-width: 800){
-  #imgSobreEmpresa{
-    margin-left: -30px;
-  }
+@media screen and (min-width: 576px){
+ 
 
-  #mainSobreEmpresa {
-    width: 690px!important;
-  }
-  #mainSobreEmpresa p {
-    margin-top: 10px;
-    margin-left: -40px;
-    width: 270px;
-  }
-}
-
-@media (min-width: 801px) and (max-width: 1000px){
-  .imgCarousel{
-    width: 50%;
-    margin-left: 205px;
-  }
-  #mainSobreEmpresa {
-    width: 800px;
-  }
-  #mainProdutos{
-    width: 800px;
-  }
-  #mainProdutos p{
-    margin-top: 175px;
-    margin-left: -296px;
-    width: 103px;
-  }
-  #mainProdutos h3{
-    margin-top: -200px;
-    width: 300px;
-  }
-  #footer{
-    width: 809px;
-  }
-}
-
-@media (min-width: 1001px) and (max-width: 1050px){
-  #mainSobreEmpresa {
-    width: 1000px;
-  }
-  #mainProdutos{
-    width: 1000px;
-  }
-  
-  #mainProdutos p{
-    margin-top: 80px;
-    margin-left: -583px;
-    width: 150px;
-  }
-  
-  #mainProdutos h3{
-    margin-top: -200px;
-    width: 300px;
-  }
 }
 
 

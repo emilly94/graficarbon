@@ -4378,8 +4378,12 @@ input[type="button"].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 1px solid white;
+  border-radius: 1.25rem;
+
+  width: 120px;
+  height: 90px;
+  margin-right: 70px ;
 }
 
 .card > hr {

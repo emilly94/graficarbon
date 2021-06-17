@@ -9,11 +9,11 @@ const Navbar = () => {
     <Nav
       variant="tabs"
       defaultActiveKey="/home"
-      class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light"
+      class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light col-sm-2"
     >
         <Image width={300} src={Logo} fluid />
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse col-sm-12" id="navbarNav">
+        <ul class="navbar-nav com-sm-12">
           <li class="nav-item active">
             <a class="nav-link" href="/home">
               <Link

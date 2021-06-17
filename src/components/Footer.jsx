@@ -14,7 +14,6 @@ import 'react-whatsapp-widget/dist/index.css';
 const Footer = ({id}) => {
   return (
     <section id={id}>
-      <div>
         <h1>
           <BsBell />
           Dúvidas? Entre em contato!
@@ -52,7 +51,6 @@ const Footer = ({id}) => {
             </Col>
           </Row>
         </Container>
-      </div>
       <p id="copyright">COPYRIGHT 2008-2021 GRAFICARBON - TODOS OS DIREITOS RESERVADOS</p>
     </section>
   );
