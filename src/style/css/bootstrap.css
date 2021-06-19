@@ -5814,6 +5814,7 @@ button.close {
 
 .carousel {
   position: relative;
+  margin-top: 175px;
 }
 
 .carousel-inner {
@@ -5991,7 +5992,7 @@ button.close {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 10px;
+  bottom: -25px;
   left: 0;
   z-index: 15;
   display: -ms-flexbox;
@@ -6044,13 +6045,14 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
-  left: 15%;
+  bottom: 70px;
+  left: -12%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #131212;
   text-align: center;
+  font-size: 20px;
 }
 
 .align-baseline {

@@ -2,9 +2,10 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import "../style/css/style.css";
 
-import EscovaGrafite from "../style/img/EscovaDeCarvao.png";
-import PalhetaGrafite from "../style/img/palhetasDeGrafite.png";
-import PinoGrafite from "../style/img/pinosDeGrafite.png";
+import Fabricacao from "../style/img/pessoasFabrica.jpg";
+import EntregaProdutos from "../style/img/entregaProdutoFabrica.jpg";
+
+import { FaBoxOpen, FaCity } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -12,22 +13,27 @@ const Header = () => {
       <Carousel>
         <Carousel.Item>
           <img
-            src={EscovaGrafite}
+            src={Fabricacao}
             alt="First slide"
             className="d-block w-90"
-            id="imgCarousel"
+            id="imgCarouselFabricacao"
           />
+          <Carousel.Caption>
+            <h3><strong><FaCity/> Fabrica</strong></h3>
+            <p>Contamos com profissionais altamente <span>qualificado para realização da</span><span>peça de sua escolha.</span></p>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            src={PalhetaGrafite}
+            src={EntregaProdutos}
             alt="Second slide"
             className="d-block w-90"
             id="imgCarousel"
           />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={PinoGrafite} alt="Third slide" className="d-block w-90" id="imgCarousel"/>
+          <Carousel.Caption>
+            <h3><strong><FaBoxOpen/>Entrega</strong></h3>
+            <p>Nossa entrega é feita por transportadora<span>de sua preferencia o prazo varia de </span><span>acordo com a qualidade da peça.</span></p>
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </section>

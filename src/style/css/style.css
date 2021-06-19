@@ -1,5 +1,15 @@
 #imgCarousel{
-  margin-left: 168px;
+  margin-left: 600px;
+  width: 500px;
+}
+#imgCarouselFabricacao{
+  margin-left: 600px;
+  width: 600px;
+  height: 300px;
+}
+
+.carousel-caption p span{
+  display: block;
 }
 
 #imgSobreEmpresa{
@@ -64,8 +74,27 @@
 
 @media (min-width: 360px) and (max-width: 767.98px){
   #imgCarousel{
-    margin-left: 20px;
-    width: 303px;
+    margin-left: 80px;
+    width: 205px;
+    margin-bottom: 10px;
+  }
+  #imgCarouselFabricacao{
+    margin-left: 80px;
+    width: 205px;
+    height: 135px;
+    margin-bottom: 10px;
+  }
+  .carousel-caption {
+    bottom: -132px!important;
+    left: 28%!important;
+    font-size: 10px!important;
+    color:#a9a9a9!important;
+  }
+  .carousel-inner{
+    height: 245px!important;
+  }
+  .carousel-caption p span{
+    display: contents!important;
   }
   #mainProdutos{
     height: 700px;
@@ -107,9 +136,26 @@
 
 @media (min-width: 768px) and (max-width: 1024px){
   #imgCarousel{
-    margin-left: 155px;
-    width: 625px;
+    margin-left: 120px;
+    width: 520px;
   }
+  #imgCarouselFabricacao{
+    margin-left: 120px;
+    width: 520px;
+    height: 300px;
+  }
+.carousel-caption {
+  bottom: -105px!important;
+  left: 28%!important;
+  font-size: 11px!important;
+  color:#a9a9a9!important;
+}
+.carousel-inner{
+  height: 400px!important;
+}
+.carousel-caption p span{
+  display: contents!important;
+}
   #footer .row {
     flex-wrap: revert;
   }
@@ -119,7 +165,7 @@
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1300px){
+@media (min-width: 1025px) and (max-width: 1440px){
   #navbarNav .navbar-nav{
     padding-left: 435px;
   }
@@ -130,7 +176,10 @@
     text-align: justify;
   }
   #mainSobreEmpresa p span{
-    display: block;
+    display: contents;
+  }
+  .carousel-caption {
+    left: -18%!important;
   }
 }
 
