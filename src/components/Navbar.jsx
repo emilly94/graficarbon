@@ -6,14 +6,15 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   return (
+    <div class="container-fluid">
     <Nav
       variant="tabs"
       defaultActiveKey="/home"
-      class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light col-sm-2"
+      class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light"
     >
         <Image width={300} src={Logo} fluid />
-      <div class="collapse navbar-collapse col-sm-12" id="navbarNav">
-        <ul class="navbar-nav com-sm-12">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="/home">
               <Link
@@ -73,6 +74,7 @@ const Navbar = () => {
         </ul>
       </div>
     </Nav>
+    </div>
   );
 };
 

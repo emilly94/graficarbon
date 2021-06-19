@@ -230,6 +230,41 @@
   transform: scale(1.1);
 }
 
+@media (min-width: 360px) and (max-width: 767.98px){
+  #container .sombraAnel{
+    margin-top: 175px;
+    margin-left: -320px;
+  }
+  #container .sombraPalhetas{
+    margin-top: 15px;
+    margin-left: -165px;
+  }
+  #container .sombraEscova{
+    margin-top: 20px;
+    margin-left: -320px;
+  }
+  #container .sombraPlaca{
+    margin-top: -335px;
+    margin-left: -165px;
+  }
+  #container .sombraContato{
+    margin-top: 20px;
+    margin-left: -165px;
+  }
+  #container .sombraAnelBiTri{
+    margin-top: 20px;
+    margin-left: -320px;
+  }
+  #container .sombraPinos{
+    margin-top: 20px;
+    margin-left: -320px;
+  }
+  #container .sombraBuchas{
+    margin-top: -99px;
+    margin-left: -165px;
+  }
+}
+
 @media  (min-width: 810px) and (max-width: 1000px ){
   .sombraAnel{
     width: 150px;
@@ -322,4 +357,30 @@
     height: 140px;
   }
   
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  #container .sombraAnel{
+    margin-left: -270px;
+  }
+  #container .sombraEscova{
+    margin-left: -100px;
+  }
+  #container .sombraPalhetas{
+    margin-left: 60px;
+  }
+  #container .sombraPinos{
+    margin-left: 230px;
+  }
+  #container .sombraPlaca{
+    margin-left: -270px;
+  }
+  #container .sombraContato{
+    margin-left: -100px;
+  }
+  #container .sombraAnelBiTri{
+    margin-left: 60px;
+  }
+  #container .sombraBuchas{
+    margin-left: 230px;
+  }
 }

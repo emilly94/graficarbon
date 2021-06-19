@@ -62,9 +62,77 @@
   margin-top: 120px;
 }
 
-@media screen and (min-width: 576px){
- 
+@media (min-width: 360px) and (max-width: 767.98px){
+  #imgCarousel{
+    margin-left: 20px;
+    width: 303px;
+  }
+  #mainProdutos{
+    height: 700px;
+  }
+  .produtosTexto{
+    margin-bottom: 455px;
+    text-align: none;
+    font-size: 14px;
+  }
+  #mainSobreEmpresa{
+    height: 500px;
+  }
+  
+  #imgSobreEmpresa{
+    margin-top: -380px;
+    margin-left: -45px;
+  }
 
+  #mainSobreEmpresa p{
+    margin-top: 10px;
+    margin-left: -402px;
+  }
+  #mainSobreEmpresa p span{
+    display: block;
+  }
+  #footer{
+    height: 600px;
+  }
+  #copyright{
+    margin-left: -67px;
+    margin-top: 8px;
+    font-size: 10px;
+  }
+ #footer .col-3{
+    max-width: none;
+    flex: none;
+  }
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+  #imgCarousel{
+    margin-left: 155px;
+    width: 625px;
+  }
+  #footer .row {
+    flex-wrap: revert;
+  }
+  #copyright{
+    margin-top: 60px;
+    margin-left: -30px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px){
+  #navbarNav .navbar-nav{
+    padding-left: 435px;
+  }
+  #mainSobreEmpresa p{
+    margin-top: 12px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: justify;
+  }
+  #mainSobreEmpresa p span{
+    display: block;
+  }
+}
+
 
 

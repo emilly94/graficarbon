@@ -11,17 +11,15 @@ const About = ({id}) => {
         <div id="mainSobreEmpresa" data-aos="fade-right">
           <Image id="imgSobreEmpresa" src={Logo} />
           <p>
-            A Graficarbon vem atuando no mercado de carvão e grafite desde 2008,
-            dirigida porprofissionais experientes com mais de 20 anos de
-            carreira no ramo.
+            A Graficarbon vem atuando no mercado de <span>carvão e grafite desde 2008,
+            dirigida por</span> profissionais experientes com mais de 20 anos <span>de
+            carreira no ramo.</span>
             <br></br>
+            Somos uma empresa especializada, contando<span> com um quadro de
+            funcionários competentes</span><span>e capacitados na fabricação das peças.</span>
             <br></br>
-            Somos uma empresa especializada, contando com um quadro de
-            funcionários competentes e capacitados na fabricação das peças.
-            <br></br>
-            <br></br>
-            Garantimos total qualidade, agilidade e um otimo atendimento na pré
-            e pós venda.
+            Garantimos total qualidade, agilidade e um <span>otimo atendimento na pré
+            e pós venda.</span>
           </p>
         </div>
     </section>
