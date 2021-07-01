@@ -1,22 +1,7 @@
-#imgCarousel{
-  margin-left: 600px;
-  width: 500px;
-}
-#imgCarouselFabricacao{
-  margin-left: 600px;
-  width: 600px;
-  height: 300px;
-}
-
-.carousel-caption p span{
-  display: block;
-}
-
 #imgSobreEmpresa{
   width: 300px;
   margin-right: 100px;
 }
-
 #mainSobreEmpresa {
   background-color: #0b1923;
   color: whitesmoke;
@@ -24,10 +9,9 @@
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 10px 60px;
-  margin: 50px auto;
-  height: 400px;
+  margin: -15px auto;
+  height: 600px;
 
   max-width: 1200px;
 }
@@ -73,29 +57,6 @@
 }
 
 @media (min-width: 360px) and (max-width: 767.98px){
-  #imgCarousel{
-    margin-left: 80px;
-    width: 205px;
-    margin-bottom: 10px;
-  }
-  #imgCarouselFabricacao{
-    margin-left: 80px;
-    width: 205px;
-    height: 135px;
-    margin-bottom: 10px;
-  }
-  .carousel-caption {
-    bottom: -132px!important;
-    left: 28%!important;
-    font-size: 10px!important;
-    color:#a9a9a9!important;
-  }
-  .carousel-inner{
-    height: 245px!important;
-  }
-  .carousel-caption p span{
-    display: contents!important;
-  }
   #mainProdutos{
     height: 700px;
   }
@@ -135,27 +96,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
-  #imgCarousel{
-    margin-left: 120px;
-    width: 520px;
-  }
-  #imgCarouselFabricacao{
-    margin-left: 120px;
-    width: 520px;
-    height: 300px;
-  }
-.carousel-caption {
-  bottom: -105px!important;
-  left: 28%!important;
-  font-size: 11px!important;
-  color:#a9a9a9!important;
-}
-.carousel-inner{
-  height: 400px!important;
-}
-.carousel-caption p span{
-  display: contents!important;
-}
   #footer .row {
     flex-wrap: revert;
   }
@@ -178,10 +118,4 @@
   #mainSobreEmpresa p span{
     display: contents;
   }
-  .carousel-caption {
-    left: -18%!important;
-  }
 }
-
-
-
