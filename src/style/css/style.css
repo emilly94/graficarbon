@@ -1,26 +1,16 @@
 #imgSobreEmpresa{
   width: 300px;
   margin-right: 100px;
+  margin-top: -90px;
 }
-#mainSobreEmpresa {
-  background-color: #0b1923;
-  color: whitesmoke;
-  font-family: 'Josefin Sans', sans-serif;
 
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 60px;
-  margin: -15px auto;
-  height: 600px;
-
-  max-width: 1200px;
+#paragrapho{
+  display: block;
 }
 
 #mainProdutos{
-  background-color:#f8f9fa;
-  color: red;
+  background-color: red;
   font-family: 'Josefin Sans', sans-serif;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,10 +100,11 @@
     padding-left: 435px;
   }
   #mainSobreEmpresa p{
-    margin-top: 12px;
-    margin-right: 100px;
+    margin-top: 155px;
+    margin-left: -380px;
     font-size: 20px;
     text-align: justify;
+    width: 520px;
   }
   #mainSobreEmpresa p span{
     display: contents;

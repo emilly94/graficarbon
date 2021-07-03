@@ -16,7 +16,7 @@ const Products = ({ id }) => {
   return (
     <section id={id}>
       <div id="mainProdutos">
-        <div className="produtosTexto" data-aos="fade-rigth">
+        <div className="produtosTexto text-white" data-aos="fade-rigth">
           <h3>
             <strong>Produtos da Graficarbon</strong>
           </h3>

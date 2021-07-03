@@ -47,7 +47,7 @@ const Footer = ({id}) => {
               <h3>
                 <BsFillEnvelopeFill />
               </h3>
-              <p>graficarbon@graficar.com.br</p>
+              <p>graficarbon@graficarbon.com.br</p>
             </Col>
           </Row>
         </Container>
