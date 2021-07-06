@@ -6,7 +6,7 @@
 #container .sombraAnel{
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
+  height: 92px;
   margin-left: -210px;
   margin-top: 340px;
   border-radius: 1.25rem;
@@ -34,7 +34,7 @@
 #container .sombraEscova{
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
+  height: 92px;
   margin-top: -100px;
   margin-right: 245px;
   border-radius: 1.25rem;
@@ -63,7 +63,7 @@
 #container .sombraPalhetas {
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
+  height: 92px;
   margin-top: -100px;
   margin-left: 205px;
   border-radius: 1.25rem;
@@ -91,7 +91,7 @@
 #container .sombraPlaca{
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
+  height: 92px;
   margin-top: 35px;
   margin-left: -115px;
   border-radius: 1.25rem;
@@ -119,7 +119,7 @@
 #container .sombraContato{
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
+  height: 92px;
   margin-top: -90px;
   margin-left: 101px;
   border-radius: 1.25rem;
@@ -147,7 +147,7 @@
 #container .sombraAnelBiTri{
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
+  height: 92px;
   margin-top: -100px;
   margin-left: 315px;
   border-radius: 1.25rem;
@@ -177,7 +177,7 @@
   background: #00000029 bottom right;
   width: 120px;
   height: 100px;
-  margin-top: -245px;
+  margin-top: -220px;
   margin-left: 412px;
   border-radius: 1.25rem;
 
@@ -204,9 +204,9 @@
 #container .sombraBuchas{
   background: #00000029 bottom right;
   width: 120px;
-  height: 100px;
-  margin-top: 40px;
-  margin-left: 560px;
+  height: 109px;
+  margin-top: 20px;
+  margin-left: 555px;
   border-radius: 1.25rem;
 
   -webkit-transition: -webkit-transform .5s ease;
