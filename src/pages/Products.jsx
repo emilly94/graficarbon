@@ -16,7 +16,7 @@ const Products = ({ id }) => {
   return (
     <section id={id}>
       <div id="mainProdutos">
-        <div className="produtosTexto text-white" data-aos="fade-rigth">
+        <div className="produtosTexto text-white" data-aos="fade-top">
           <h3>
             <strong>Produtos da Graficarbon</strong>
           </h3>
@@ -26,7 +26,7 @@ const Products = ({ id }) => {
           </p>
         </div>
       </div>
-        <div id="container" data-aos="fade-left">
+        <div id="container" data-aos="fade-top">
           <div className="sombraAnel">
             <Card>  
             <img src={AnelGrafite} alt="anelGrafite" id="imgAnel" />

@@ -18,7 +18,7 @@ const Header = () => {
                 offset={-90}
                 duration={500}
               >
-                Produtos
+                Nossos Produtos
               </Link></a>
             </div>
           </div>

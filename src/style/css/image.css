@@ -1,12 +1,12 @@
 #container{
-  margin-left: 340px;
+  margin-left: 470px;
   margin-top: -650px;
 }
 
 #container .sombraAnel{
   background: #00000029 bottom right;
   width: 120px;
-  height: 92px;
+  height: 100px;
   margin-left: -210px;
   margin-top: 340px;
   border-radius: 1.25rem;
@@ -18,8 +18,8 @@
 #container .sombraAnel #imgAnel {
   width: 120px;
   position: relative;
-  margin-top: -9px;
-  margin-left: 11px;
+  margin-top: -4px;
+  margin-left: 5px;
   border-radius: 1.25rem;
 }
 
@@ -34,7 +34,7 @@
 #container .sombraEscova{
   background: #00000029 bottom right;
   width: 120px;
-  height: 92px;
+  height: 100px;
   margin-top: -100px;
   margin-right: 245px;
   border-radius: 1.25rem;
@@ -44,11 +44,11 @@
   transition: transform .5s ease;
 }
 
-.sombraEscova #imgEscova {
+#container .sombraEscova #imgEscova {
   width: 120px;
   position: relative;
-  margin-left: 16px;
-  margin-top: -15px;
+  margin-left: 4px;
+  margin-top: -5px;
   border-radius: 1.25rem;
 }
 
@@ -76,7 +76,7 @@
   width: 110px;
   position: relative;
   margin-top: -5px;
-  margin-left: 18px;
+  margin-left: 9px;
   border-radius: 1.25rem;
 }
 
@@ -103,7 +103,7 @@
 #container .sombraPlaca #imgPlaca{
   width: 120px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 0px;
   margin-top: -5px;
   border-radius: 1.25rem;
 }
@@ -119,7 +119,7 @@
 #container .sombraContato{
   background: #00000029 bottom right;
   width: 120px;
-  height: 92px;
+  height: 100px;
   margin-top: -90px;
   margin-left: 101px;
   border-radius: 1.25rem;
@@ -132,8 +132,8 @@
   width: 120px;
   height: 87px;
   position: relative;
-  margin-left: 22px;
-  margin-top: -8px;
+  margin-left: 4px;
+  margin-top: 0px;
   border-radius: 1.25rem;
 }
 #container .sombraContato:hover{
@@ -147,7 +147,7 @@
 #container .sombraAnelBiTri{
   background: #00000029 bottom right;
   width: 120px;
-  height: 92px;
+  height: 95px;
   margin-top: -100px;
   margin-left: 315px;
   border-radius: 1.25rem;
@@ -160,8 +160,8 @@
   width: 120px;
   height: 90px;
   position: relative;
-  margin-left: 23px;
-  margin-top: -13px;
+  margin-left: 5px;
+  margin-top: -10px;
   border-radius: 1.25rem;
 }
 
@@ -204,7 +204,7 @@
 #container .sombraBuchas{
   background: #00000029 bottom right;
   width: 120px;
-  height: 109px;
+  height: 112px;
   margin-top: 20px;
   margin-left: 555px;
   border-radius: 1.25rem;
@@ -217,8 +217,8 @@
   width: 120px;
   height: 100px;
   position: relative;
-  margin-left: 25px;
-  margin-top: -6px;
+  margin-left: 4px;
+  margin-top: -3px;
   border-radius: 1.25rem;
 }
 

@@ -582,10 +582,10 @@ pre code {
 .device {
   position: relative;
   background-size: auto;
-  background-image: url("../img/logo.png");
-  margin-left: -230px;
-  width: 688px;
-  height: 133px;
+  background-image: url("../img/header-bg.png");
+  margin-left: -160px;
+  width: 455px;
+  height: 104px;
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
@@ -2421,6 +2421,7 @@ textarea.form-control {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-left: -170px;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
