@@ -10,10 +10,16 @@ const About = ({ id }) => {
             <div class="container px-lg-5">
                 <div class="p-4 p-lg-5 bg-dark rounded-3 text-center">
                     <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold"><Image src={logo} id="imgSobreEmpresa" /></h1>
-                        <p class="fs-4 text-white">Fundada na cidade de São Paulo no ano 2008, a Graficarbon é atualmente uma das empresas mais experientes no mercado carvão e grafite nos dias atuais, contando com profissionais altamente qualificados que possuem mais de 30 anos de experiencia no ramo e que buscam sempre a inovação para se adaptarem as mudanças no cenário.<span id="paragrapho"></span>
-                        Desde de seu primeiro ano, nosso crescimento é constante e cada vez mais passamos confiança a nossos clientes entregando serviços e produtos da mais alta qualidade e um ótimo atendimento, sempre com muita agilidade, eficiência, comprometimento e segurança.</p>
+                        <div id="paragraphFirst">
+                        <p class="fs-4 text-white">Fundada na cidade de São Paulo no ano 2008, a Graficarbon é atualmente uma das empresas mais experientes no mercado carvão e grafite nos dias atuais, contando com profissionais altamente qualificados que possuem mais de 30 anos de experiencia no ramo e que buscam sempre a inovação para se adaptarem as mudanças no cenário.</p>
+                        </div>
+                        <div id="paragraphSecond">
+                        <p class="fs-4 text-white">
+                        Desde de seu primeiro ano, nosso crescimento é constante e cada vez mais passamos confiança a nossos clientes entregando serviços e produtos da mais alta qualidade e um ótimo atendimento, sempre com muita agilidade, eficiência, comprometimento e segurança.
+                        </p>
+                        </div>
                     </div>
+                    <h1 class="display-5 fw-bold"><Image src={logo} id="imgSobreEmpresa" /></h1>
                 </div>
             </div>
         </header>
